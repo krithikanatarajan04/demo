@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scaling" charset="UTF-8"> 
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta>
+</head>
+<body>
+    <h1>Hello Word.</h1>
+    <p id="main">
+        This text is changed color because of the color associated with ID main
+    </p>
+
+    <p>
+        no idea text has separate color
+    </p>
+
+    <p class="A"> 
+        This represents a class
+    </p>
+
+    <button id="navigateButton"> go to next
+        <script>
+            const navigateButton = document.getElementById("navigateButton");
+
+            navigateButton.addEventListener('click', function(){
+                window.location.href = 'chart.html';
+            })
+            
+        </script>
+    </button>
+</body>
+</html>
